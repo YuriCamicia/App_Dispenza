@@ -1,0 +1,77 @@
+/*
+ * Globals
+ */
+ @import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+ $mainColor: #fccc63;
+ $errorColor: #FF654A;
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+
+
+body{
+  background-color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main{
+  text-align:center;
+  min-height:90vh;
+}
+
+
+.pulsantieraCont{
+  margin: 20px auto;
+}
+
+.pulsantiera{
+
+  min-width:30%;
+
+  &__pulsante--nuovo{
+    background-color: $mainColor;
+  }
+}
+
+.pulsante--tabella{
+  //margin:10px;
+  i{
+    font-size:20px;
+  }
+}
+
+.bg-navbar{
+  background-color: $mainColor;
+}
+
+.footer{
+  background-color: $mainColor;
+}
+
+
+
+
+.prodottoIndispensabile--nuovo{
+  margin: 50px auto;
+}
+
+.prodotto-quantita-insufficiente{
+  color: $errorColor;
+}
+
+.logo-img{
+  width:32px;
+  transform: rotate(-45deg);
+}
